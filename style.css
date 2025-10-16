@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+ul { list-style:none; padding: 0; margin: 0;}
+li {
+  position: absolute;
+  background: red;
+  width: 200px;
+  height: 200px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+li:nth-child(1) {
+  top: 5vh;
+  left: 40vw;
+}
+li:nth-child(2) {
+  top: 40vh;
+  left: 10vw;
+}
+li:nth-child(3) {
+  top: 20vh;
+  left: 60vw;
+}
+li:nth-child(4) {
+  top: 80vh;
+  left: 5vw;
+}
+li:nth-child(5) {
+  top: 60vh;
+  left: 80vw;
+}
+#rocket {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: blue;
+  border-radius: 1000px;
+  width: 100px;
+  height: 100px;
+  transition: top 0.5s ease 0s, left 0.5s ease 0s;
+}
